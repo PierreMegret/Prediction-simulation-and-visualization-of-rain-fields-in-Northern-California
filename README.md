@@ -4,7 +4,7 @@ Rain fields show complex behavior that is difficult to reproduce with physical m
 Python was the programming language for this project. I implemented a methods from scratch using basic linear algebra tools available in NumPy/SciPy packages.
 
 ## The code
-The code is organized as a python class with prediction, simulation and visualization functionalities (PierreMegret_Predictor) and an evaluation file (PierreMegret_Evaluation).
+The code is organized as a python class with prediction, simulation and visualization functionalities (PierrePredictor) and an evaluation part.
 ## The data
 The dataset I used in this project was an hourly rainfall rate in mm/hour measured in California at a given time of a given winter day of 2025. The meteorological sensing network covering California contains 827 sensors. Of all the 827, the measurements in 414 locations were available, my task in Part 1 was to provide a prediction of the hourly rainfall rate for the other 413 locations reserved as test sites.
 ### Part 1. Predictions
